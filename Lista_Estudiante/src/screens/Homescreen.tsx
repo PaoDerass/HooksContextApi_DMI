@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import StudentList from '../components/studentList';
-import { useStudents } from '../contexts/studentContext';
+import { useStudents } from '../contexts/useEstudiantes';
 import theme from '../styles/theme';
 
 const HomeScreen: React.FC = () => {

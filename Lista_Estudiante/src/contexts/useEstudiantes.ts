@@ -1,5 +1,5 @@
 import React from 'react';
-import { StudentContext } from './StudentContext';
+import { StudentContext } from './studentContext';
 
 export const useStudents = () => {
   const context = React.useContext(StudentContext);
